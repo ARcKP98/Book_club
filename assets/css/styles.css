@@ -21,6 +21,7 @@ h1, h2, h3 {
 #logo {
     float: left;
     font-size: 280%;
+    color: whitesmoke;
     text-align: center;
     
 }
@@ -40,6 +41,7 @@ h1, h2, h3 {
     float: right;
     list-style-type: none;
     margin-right: 30px;
+    color: white;
     
 }
 
@@ -49,16 +51,17 @@ h1, h2, h3 {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 2px solid #F5F5F5;
 }
 
 .active {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 2px solid #F5F5F5;
 }
 /*Cover-image*/
 #cover-image {
     height: 600px;
     width: 100%;
-    background: url('../images/cover-image-min.jpeg') no-repeat center center;
+    background: url('../images/cover-image.jpeg') no-repeat center center;
+   
     
 }
