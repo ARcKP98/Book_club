@@ -27,8 +27,9 @@ h1, h2, h3 {
 
 /*Navigation*/
   #menu {
-    font-size: 110%;
+    font-size: 100%;
     letter-spacing: 4px;
+    
 }
 
 #menu, #logo {
@@ -39,14 +40,8 @@ h1, h2, h3 {
     float: right;
     list-style-type: none;
     margin-right: 30px;
-}
-
-ul {
     
-    display: flex;
-    justify-content: flex-end;
-    flex-wrap:wrap;
-  }
+}
 
 #menu a {
     text-decoration: none;
