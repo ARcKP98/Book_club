@@ -9,6 +9,7 @@ body {
     font-family: 'Titillium Web', sans-serif;
     font-weight: 300;
     color: black;
+    position: relative;
 }
 
 h1, h2, h3 {
@@ -18,7 +19,44 @@ h1, h2, h3 {
 }
 
 #logo {
-    font-size: 300%;
+    float: left;
+    font-size: 280%;
     text-align: center;
+    background-color: yellow;
+}
+
+/*Navigation*/
+  #menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+ul {
     
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap:wrap;
+  }
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
 }
