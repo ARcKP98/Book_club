@@ -10,6 +10,7 @@
     <title>Book Club Finder</title>
 </head>
 <body>
+    <header>
     <nav id="menu">
         <ul>
             <a href="index.html">
@@ -25,16 +26,15 @@
                     <a href="#">What others are saying</a>
                 </li>
             <li>
-                <a href="#">Contact</a>
+                <a href="#contact">Contact</a>
             </li>
          </ul>
     </nav>
-    <header>
     </header>
     <section>
         <div class="container">
             <img src="/assets/images/cover-image.jpeg" width="100%" class="image">
-            <div class="overlay">
+            <div class="overlay"> <!--height can be 480 -->
               <div class="text">
                     <h2>Welcome to the Book Club Finder</h2>
                     <h3>We help you find a good reading club in Amsterdam.</h3>
@@ -78,22 +78,30 @@
             <h3>Not sure if a book club is for you?</h3>
             <p>Watch the video below to get an idea of what to expect.</p>
             <br>
-            <div id="center">
-                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/GfGsd7vaGQ8" title="YouTube video player" 
+            <div>
+                <center><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/GfGsd7vaGQ8" title="YouTube video player" 
                 frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                allowfullscreen aria-label="This is a video about benefits of joining a book club."></iframe>
+                allowfullscreen aria-label="This is a video about benefits of joining a book club." id="center"></iframe></center>
             </div>
         </div>
-
     </section>
-    <section>What others say</section>
-    <section>Contact info</section>
+    <hr>
+    <section>
+        <h2 class="info">Find us here:</h2>
+        <span>
+            <p>275 Weteringschans, Amsterdam, North Holland</p>
+            <p>Available from Monday to Friday, 10:00-17:00</p>
+        </span>
+        <center><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4873.1573968412395!2d4.897418!3d52.359926!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c609c4132cc63d%3A0xa5aee20780ff8e85!2sThe%20School%20Of%20Life%20Amsterdam!5e0!3m2!1sen!2snl!4v1668439471830!5m2!1sen!2snl" 
+        width="700" height="390" style="border:0;" allowfullscreen="no" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe></center>
+    </section>
+    <section>What others say
+    </section>
     <footer>
         <p>Follow us on our Social media</p>
-        
     </footer>
 <!--Font awesome link-->
     <script src="https://kit.fontawesome.com/9c53ea3530.js" crossorigin="anonymous"></script>
-
 </body>
 </html>
