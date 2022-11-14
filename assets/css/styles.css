@@ -12,7 +12,7 @@ body {
     position: relative;
 }
 
-h1, h2, h3 {
+h1, h2, h3{
     font-family: 'Chivo', italic;
     color: #1a1110;
     font-weight: 400; 
@@ -81,7 +81,7 @@ ul {
     width: 100%;
     opacity: 0;
     transition: .6s ease;
-    background-color: #FFE77AFF;
+    background-color: #E9D985;
   }
   
   .container:hover .overlay {
@@ -99,39 +99,50 @@ ul {
     text-align: center;
   }
 /*Why join the club*/
+#join {
+  background-color: #B2BD7E;
+
+}
+
 #reason {
     text-align: center;
     font-size: 250%;
-    padding-top: 20px;
-    margin-top: 20px;
+    padding-top: 0;
+    margin-bottom: 20px;
     /* text-decoration: underline; */
 }
 
 .why {
-    padding: 10px;
+    padding: 20px;
     text-align: center;
-    margin: 1rem;
+    margin: 1rem 1rem 0 1rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: flex-start;
     align-content: flex-start;
     border: solid brown;
-    border-radius: 20px ;  
+    border-radius: 20px ; 
 }
 
 hr {
     border-bottom: 5px solid #1a1110;
 }
 /*Youtube video*/
+#video {
+  background-color: #749C75;
+}
 .youtube > h3, p{
     color: #1a1110;
     text-align: center;
-    margin: 0 auto;
 }
   /*Contact and maps*/
   .info{
     text-align: center;
+    font-size: 40px;
+  }
+  #map {
+    background-color: #6A5D7B;
   }
   /*Footer*/
  footer {
