@@ -105,6 +105,7 @@ li {
   margin-top: -7px;
   margin-bottom: -23px;
   padding-bottom: 4rem;
+  /*add disply flex to get the "desired" look*/
   /*margin top of -7px and margin bottom of -23px can reduce the gap. The padding bottom can be removed if the attched box is preffered.*/
 
 }
@@ -191,3 +192,51 @@ footer li{
   color: #f5f5f5;
   left: 60%; 
 } 
+
+/* For medium screen sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 100%;
+    opacity: 0;
+    transition: .6s ease;
+    background-color: #E9D985;
+  }
+  .text {
+    font-size: 20px;
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  iframe {
+    width: 80%;
+    height: 60;
+  }
+  
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .overlay {
+    height: auto;
+  }
+
+  .text {
+    font-size: 15px;
+  }
+
+  iframe {
+    /* width: auto;
+    height: auto; */
+    width: 80%;
+    height: 60;
+  }
+}
