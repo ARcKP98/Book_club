@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@1,300&family=Courgette&family=Titillium+Web:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@1,100&family=Courgette&family=Titillium+Web:wght@300&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -8,58 +8,74 @@
 body {
     font-family: 'Titillium Web', sans-serif;
     font-weight: 300;
-    color: black;
+    color: #1a1110;
     position: relative;
 }
 
 h1, h2, h3{
-    font-family: 'Chivo', italic;
+  font-family: 'Chivo', sans-serif;
     color: #1a1110;
-    font-weight: 400; 
+    font-weight: 100; 
 }
 
 #logo {
     float: left;
     font-family: 'Courgette', cursive;
-    font-size: 280%;
+    font-size: 350%;
     color: #100c08;
-    text-align: center;
+    /* text-align: center; */
     
 }
 /*Navigation*/
-.menu-items {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+header {
+  display: flex;
+  flex-direction: column; /*column. Maybe add special rules in media query using columns if you want to use rows here.*/
+  align-items: center;
+  justify-content: space-between;
 }
-
+/* .menu-items {
+  display: inline;
+    float: right;
+    list-style-type: none;
+    padding: 17px;
+} */
+/* .menu-items {
+  display: inline;
+  float: right;
+} */
 li {
     display: inline;
     float: right;
+    padding: 12px;
+    list-style-type: none;
   }
-  a {
+
+  /* a {
     display: block;
     padding: 6px 0 8px;
-  }
+  } */
   li a {
     display: block;
-    color: black;
+    color: #1a1110;
     text-align: center;
-    padding: 8px 15px;
+    padding: 10px 15px;
     text-decoration: none;
+    /* padding-bottom: 3px; */
   }
-#menu a {
+/* #menu a {
     text-decoration: none;
-    color: inherit;
-}
+    padding-bottom: 3px;
+} */
+
   li a:hover {
-    border-bottom: 2px solid #3a3a3a;
+    border-bottom: 1px solid #3a3a3a;
   }
 
   .active {
-    border-bottom: 2px solid #3a3a3a;
+    border-bottom: 1px solid #3a3a3a;
+    padding-bottom: 3px;
 }
+
 /*Cover-image*/
 .container {
     position: relative;
@@ -78,8 +94,8 @@ li {
     bottom: 0;
     left: 0;
     right: 0;
-    height: 100%;
     width: 100%;
+    /*height: 100%;*/
     opacity: 0;
     transition: .6s ease;
     background-color: #E9D985;
@@ -118,18 +134,30 @@ li {
     /* text-decoration: underline; */
 }
 
-.why {
+/* .why {
     padding: 20px;
     text-align: center;
     margin: 1rem 1rem 0 1rem;
     display: flex;
-    flex-direction: row;
+    flex-direction: row; here this would lead to headings in the center 
     flex-wrap: wrap;
     align-items: flex-start;
     align-content: flex-start;
     justify-content: center;
     border: solid brown;
     border-radius: 20px ; 
+} */
+
+.why {
+padding: 20px;
+text-align: center;
+margin: 1rem 1rem 0 1rem;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+align-items: center;
+border: solid brown;
+border-radius: 20px;
 }
 
 hr {
@@ -140,7 +168,7 @@ hr {
   background-color: #749C75;
   margin-top: -23px;
 }
-.youtube> h3, p{
+.youtube> h3,p{
     color: #1a1110;
     text-align: center;
 }
@@ -192,7 +220,7 @@ footer li{
   color: #f5f5f5;
   left: 60%; 
 } 
-
+/*Media queries*/
 /* For medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
   .overlay {
@@ -223,7 +251,6 @@ footer li{
   }
   
 }
-
 @media (min-width: 320px) and (max-width: 480px) {
   .overlay {
     height: auto;
@@ -232,11 +259,21 @@ footer li{
   .text {
     font-size: 15px;
   }
-
+.youtube > p {
+  padding: 0 10px 0 10px;
+}
   iframe {
     /* width: auto;
     height: auto; */
     width: 80%;
     height: 60;
+  }
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #logo {
+    font-size: 230%;
   }
 }
