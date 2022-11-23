@@ -120,14 +120,23 @@ li {
   /*margin top of -7px and margin bottom of -23px can reduce the gap. The padding bottom can be removed if the attched box is preffered.*/
 }
 
-#reason {
+#why-join-us {
     text-align: center;
     font-size: 250%;
     padding-top: 7px;
     margin-bottom: 20px;
     /* text-decoration: underline; */
 }
+.reasons {
+  display: flex;
+}
+.why {
+  flex: 50%;
+  border: solid brown;
+  /* border-radius: 20px ;  Maybe change the text style to make it more clear if used border*/
+  margin: 1rem 1rem 0 1rem;
 
+}
 /* .why {
     padding: 20px;
     text-align: center;
@@ -142,7 +151,7 @@ li {
     border-radius: 20px ; 
 } */
 
-.why {
+/* .why {
 padding: 20px;
 text-align: center;
 margin: 1rem 1rem 0 1rem;
@@ -152,7 +161,7 @@ flex-wrap: wrap;
 align-items: center;
 border: solid brown;
 border-radius: 20px;
-}
+} */
 
 hr {
     border-bottom: 5px solid #1a1110;
@@ -265,30 +274,22 @@ footer li{
 .youtube > p {
   padding: 0 10px 0 10px;
 }
+.reasons {
+  display: flex;
+  flex-wrap: wrap;
+}
   iframe {
     /* width: auto;
     height: auto; */
     width: 80%;
     height: 60;
   }
-   /* header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-   } */
-
-   /* li {
-    display: block;
-    color: #1a1110;
-    text-align: center;
-    text-decoration: none;
-   }
-   li a {
-    display: inline;
-    color: #1a1110;
-    text-decoration: none;
-   } */
-
+  img {
+    height: 370px;
+  }
+  .overlay {
+    height: 370px;
+  } 
   #logo {
     font-size: 230%;
   }
