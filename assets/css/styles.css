@@ -16,6 +16,12 @@ h1, h2, h3, h4{
   font-family: 'Chivo', sans-serif;
     color: #1a1110;
     font-weight: 100; 
+    text-align: center;
+}
+
+p {
+  color: #1a1110;
+  text-align: center;
 }
 
 #logo {
@@ -129,6 +135,13 @@ li {
 }
 .reasons {
   display: flex;
+  padding: 7px;
+}
+.reasons p {
+padding: 6px;
+}
+.reasons h2 {
+  text-decoration: underline;
 }
 .why {
   flex: 50%;
@@ -171,15 +184,20 @@ hr {
   background-color: #749C75;
   margin-top: -23px;
 }
-.youtube> h3,p{
+/* .youtube h3 p{
     color: #1a1110;
     text-align: center;
-}
+} */
   /*Contact and maps*/
   .info{
     text-align: center;
     font-size: 40px;
   }
+
+/* .info p {
+  text-align: center;
+  color: #1a1110;
+} */
   #map {
     background-color: #6A5D7B;
   }
