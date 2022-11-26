@@ -198,6 +198,11 @@ hr {
   text-align: center;
   color: #1a1110;
 } */
+
+.map-and-form {
+  display: flex;
+}
+
   #map {
     background-color: #6A5D7B;
   }
@@ -209,9 +214,10 @@ hr {
 
     align-items: center;
 
-    border: 20px solid cornflowerblue;
+    border: 7px solid cornflowerblue;
 
-    border-radius: 30px;
+    border-radius: 18px;
+    margin-right: 10px;
 
   }
 /*Centering iframe elements*/
