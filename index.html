@@ -115,10 +115,22 @@
                 width="700" height="390" style="border:0;" allowfullscreen="true" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade">
             </iframe>
-            <form action="#" method="post">
+             <div id="contact-form">
                 <h2>If you are curious and would like to know more</h2>
                 <p>Fill out the form to get in touch with us!</p>
-            </form>
+                <form action="#" method="POST">
+                    <label for="fname">Name:</label>
+                    <input id="fname" type="text" required>
+                    <label for="email">Email:</label>
+                    <input id="email" type="email" required>
+                    <label for="sign-up">Are you planning on signing up?</label>
+                    <label for="yes">Yes</label>
+                    <input type="radio" name="sign-up" id="yes" value="yes"> 
+                    <label for="no">No</label>
+                    <input type="radio" name="sign-up" id="no" value="no"> 
+
+                </form>
+             </div>
         </div>
     </section>
     <footer>

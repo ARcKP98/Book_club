@@ -207,9 +207,9 @@ hr {
     background-color: #6A5D7B;
   }
 
-  form {
+  #contact-form {
     display: flex;
-
+    background-color: #E9D985;
     flex-direction: column;
 
     align-items: center;
@@ -218,8 +218,10 @@ hr {
 
     border-radius: 18px;
     margin-right: 10px;
-
   }
+label {
+  display: block;
+}
 /*Centering iframe elements*/
 iframe {
   display: block;
