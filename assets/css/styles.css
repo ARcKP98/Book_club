@@ -217,10 +217,10 @@ hr {
     align-items: center;
 
     border: 7px solid cornflowerblue;
-
+    margin: 0 10px 9px; 
     border-radius: 18px;
-    margin-right: 10px;
-    margin-left: 10px;
+    /* margin-right: 10px;
+    margin-left: 10px; */
   }
 
 
