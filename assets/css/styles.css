@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     border: none;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -63,7 +64,7 @@ li {
   } */
   li a {
     display: block;
-    color: #1a1110;
+    color: #0d0d0d;
     text-align: center;
     /* padding: 10px 15px; */
     text-decoration: none;
@@ -131,7 +132,7 @@ li {
     text-align: center;
     font-size: 250%;
     padding-top: 7px;
-    margin-bottom: 20px;
+    margin-bottom: -10px;
     /* text-decoration: underline; */
 }
 .reasons {
@@ -195,11 +196,6 @@ hr {
     font-size: 40px;
   }
 
-/* .info p {
-  text-align: center;
-  color: #1a1110;
-} */
-
 .map-and-form {
   display: flex;
 }
@@ -207,21 +203,64 @@ hr {
   #map {
     background-color: #6A5D7B;
   }
-
+  label {
+    display: block;
+    margin-top: 13px;
+  }
+  /* label:first-of-type{
+    margin-top: 0;
+  } */
+  .radio label {
+    margin-top: 0;
+  }
+  
   #contact-form {
     display: flex;
     background-color: #E9D985;
     flex-direction: column;
-  
-
+    /* min-width: 200px; */
+    margin: 2em 0;
+    padding: 1em 2em;
     align-items: center;
-
     border: 7px solid cornflowerblue;
     margin: 0 10px 9px; 
     border-radius: 18px;
-    /* margin-right: 10px;
-    margin-left: 10px; */
   }
+  .text-input {
+    background: transparent;
+    color: black;
+    width: 100%; /*90 looks good*/
+    /* height: 10px; */
+    /* margin: 3px 0 3px 0; */
+    border: none;
+    border-bottom: 1px solid black;
+}
+input[type=radio] + label {
+  display: inline-block;
+  margin-top: 0;
+  padding-top: 0;
+}
+input[type=radio] {
+  margin-left: 1.5em;
+  margin-right: 0;
+}
+input[type=radio]:first-of-type {
+  margin-left:0;
+}
+textarea {
+  border: 1px solid #100c08;
+  min-height: 80;
+  min-width: 100;
+}
+.submit-button{
+  display: block;
+  margin-top: 30px;
+  margin: 0 auto;
+  margin-top: 20px;
+  border-radius: 2px;
+  padding: 15px 32px;
+
+}
 
 
 /*Centering iframe elements*/
@@ -273,7 +312,7 @@ footer li{
     bottom: 0;
     left: 0;
     right: 0; */
-    height: auto;
+    height: 550px; /*Maybe 480px for a look where more of the picture can be seen*/
     width: 60%;
     opacity: 1;
     background-color: #E9D985;
@@ -295,6 +334,9 @@ footer li{
   div .map-and-form {
     display: flex;
     flex-direction: column;
+  }
+  textarea {
+    width: 100%;
   }
   
 }

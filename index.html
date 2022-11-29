@@ -112,7 +112,7 @@
         <div class="map-and-form">
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4873.1573968412395!2d4.897418!3d52.359926!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c609c4132cc63d%3A0xa5aee20780ff8e85!2sThe%20School%20Of%20Life%20Amsterdam!5e0!3m2!1sen!2snl!4v1668439471830!5m2!1sen!2snl"
-                width="700" height="390" style="border:0;" allowfullscreen="true" loading="lazy"
+                width="700" height="600" style="border:0;" allowfullscreen="true" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade">
             </iframe>
              <div id="contact-form">
@@ -121,19 +121,31 @@
                 <br>
                 <form action="#" method="POST">
                     <label for="fname">Name:</label> 
-                    <input id="fname" type="text" required> <br>
+                    <input class="text-input" id="fname" type="text" required> 
                     <label for="email">Email:</label>
-                    <input id="email" type="email" required> <br>
-                    <label for="sign-up">Are you planning on signing up?</label> <br>
-                    <label for="yes">Yes</label> 
-                    <input type="radio" name="sign-up" id="yes" value="yes"> 
-                    <label for="no">No</label>
-                    <input type="radio" name="sign-up" id="no" value="no"> 
-                    <label for="maybe">Maybe</label>
-                    <input type="radio" name="sign-up" id="maybe" value="maybe"> <br>
-                    <label for="question">Please write your question or comments below:</label> <br>
-                    <textarea class="form-textarea" name="question" id="question" cols="50" rows="9" placeholder="Write your comment here"></textarea>
-
+                    <input class="text-input" id="email" type="email" required> 
+                    <label for="sign-up">Are you planning on signing up?</label> 
+                    <div class="radio">
+                        <input type="radio" name="sign-up" id="yes" value="yes"> 
+                        <label for="yes">Yes</label> 
+                        <input type="radio" name="sign-up" id="no" value="no">
+                        <label for="no">No</label>
+                        <input type="radio" name="sign-up" id="maybe" value="maybe"> 
+                        <label for="maybe">Maybe</label>
+                     </div>
+                    <label for="question">Please write your question or comments below:</label>
+                    <textarea class="form-textarea" name="question" id="question" cols="50" rows="9" placeholder="Write your comment here" required></textarea> 
+                    <br>
+                    <label>How did you hear about us?</label>
+                    <select name="source" id="source">
+                        <option name="blank" value="1">Pick an Option</option>
+                        <option name="facebook" value="1">Facebook</option>
+                        <option name="instagram" value="2">Instagram</option>
+                        <option name="twitter" value="3">Twitter</option>
+                        <option name="word-of-mouth" value="4">Word of mouth</option>
+                        <option name="current-members" value="5">Current members</option>
+                    </select>
+                    <input class="submit-button" type="submit">
                 </form>
              </div>
         </div>
