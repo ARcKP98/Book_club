@@ -20,7 +20,7 @@
         <nav id="menu" class="menu-items">
             <ul>
                 <li>
-                    <a href="#contact">Contact</a>
+                    <a href="#map">Contact</a>
                 </li>
                 <li>
                     <a href="#why-join-us">Why Join Us</a>
@@ -87,12 +87,29 @@
                 </p>
             </div>
         </div>
+        <div class="reasons">
+            <div class="why">
+                <h2>Great Selection</h2>
+                <p>Not only can you get together with others to read books, we can also offer you great recommendations
+                     if you want to avoid decision decision fatigue. You don't have to choose the book we recommend and are more
+                     than welcome to pick the one your club agrees on but our current members love to use this suggestion since
+                     most people can be busy to make a decision. Get in touch to know more about this selection. 
+                </p>
+            </div>
+            <div class="why">
+                <h2>Intra group meetups</h2>
+                <p>Once a month, we arrange a gathering for all our book clubs. This is a great opportunity
+                    to meet other book clubs in Amsterdam. We have different events every time there is a gethering, 
+                    from trivia night to open mic nights. Location will be conveyed before the event.
+                </p>
+            </div>
+        </div>
     </section>
     <br>
     <section id="video">
         <div class="youtube">
-            <h3 style="font-size: 40px;">Not sure if a book club is for you?</h3>
-            <p>Watch the video below to get an idea of what to expect.</p>
+            <h2 style="font-size: 40px;">Not sure if a book club is for you?</h2>
+            <h3>Watch the video below to get an idea of why joining a Book Club can be useful.</h3>
             <br>
             <div>
                 <iframe width="700" height="315" src="https://www.youtube-nocookie.com/embed/GfGsd7vaGQ8"
@@ -104,15 +121,16 @@
         </div>
     </section>
     <!-- An hr will add a black line. Is it worth it?-->
-    <section id="map">
-        <h2 class="info" id="contact">Find us here</h2>
-        <p>275 Weteringschans, Amsterdam, North Holland</p>
-        <p>Available from Monday to Friday, 10:00-17:00</p>
+    <section id="contact">
+        <h2 class="info">Find us here</h2>
+        <h4>275 Weteringschans, Amsterdam, North Holland</h4>
+        <br>
+        <h4>Available from Monday to Friday, 10:00-17:00</h4>
         <br>
         <div class="map-and-form">
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4873.1573968412395!2d4.897418!3d52.359926!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c609c4132cc63d%3A0xa5aee20780ff8e85!2sThe%20School%20Of%20Life%20Amsterdam!5e0!3m2!1sen!2snl!4v1668439471830!5m2!1sen!2snl"
-                width="700" height="600" style="border:0;" allowfullscreen="true" loading="lazy"
+                width="700" height="600" style="border:0;"  loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade">
             </iframe>
              <div id="contact-form">
@@ -138,12 +156,12 @@
                     <br>
                     <label>How did you hear about us?</label>
                     <select name="source" id="source">
-                        <option name="blank" value="1">Pick an Option</option>
-                        <option name="facebook" value="1">Facebook</option>
-                        <option name="instagram" value="2">Instagram</option>
-                        <option name="twitter" value="3">Twitter</option>
-                        <option name="word-of-mouth" value="4">Word of mouth</option>
-                        <option name="current-members" value="5">Current members</option>
+                        <option id="blank" value="1">Pick an Option</option>
+                        <option id="facebook" value="1">Facebook</option>
+                        <option id="instagram" value="2">Instagram</option>
+                        <option id="twitter" value="3">Twitter</option>
+                        <option id="word-of-mouth" value="4">Word of mouth</option>
+                        <option id="current-members" value="5">Current members</option>
                     </select>
                     <input class="submit-button" type="submit">
                 </form>
