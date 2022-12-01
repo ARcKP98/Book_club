@@ -11,11 +11,12 @@ body {
     font-weight: 300;
     color: #1a1110;
     position: relative;
+    background-color: #FCF5C7;
 }
 
 h1, h2, h3, h4{
   font-family: 'Chivo', sans-serif;
-    color: #1a1110;
+    color: #314054;
     font-weight: 100; 
     text-align: center;
     /*font-size: 40px; Add a font-size seperately if h1 and h2 are used and need different sizes*/
@@ -24,7 +25,6 @@ h1, h2, h3, h4{
 p {
   color: #1a1110;
   text-align: center;
-  font-size: 23px;
 }
 
 #logo {
@@ -57,7 +57,7 @@ li {
     float: right;
     padding: 12px;
     list-style-type: none;
-    font-size: 23px;
+    font-size: 18px;
   }
 
   /* a {
@@ -111,38 +111,38 @@ li {
     height: 550px;
     /*height: 100%; change the width and remove the hover effect change the opacity to 0 if we stick with 50 and no hover.*/
     opacity: 0.8;
-    background-color: #E9D985;
+    background-color: #FFEE93;
   }
   
   .text {
     position: absolute;
     top: 50%; 
     left: 50%;
+    font-size: 35px;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
   }
-  .text h1{
-    font-size: 50px;
+  .text h1 h4 {
+    color: #100c08;
   }
-  .text h4{
-    font-size: 39px;
-  }
+ 
 /*Why join the club*/
 #join {
-  background-color: #B2BD7E;
+  /* background-color: #B2BD7E; */
   margin-top: -7px;
   margin-bottom: -23px;
   padding-bottom: 4rem;
+  background-color: #FCF5C7;
   /*add disply flex to get the "desired" look*/
   /*margin top of -7px and margin bottom of -23px can reduce the gap. The padding bottom can be removed if the attched box is preffered.*/
 }
 
 #why-join-us {
     text-align: center;
-    font-size: 250%;
-    padding-top: 7px;
+    font-size: 40px;
+    padding-top: 10px;
     margin-bottom: -10px;
     color: #2E4057;
     /* text-decoration: underline; */
@@ -153,9 +153,11 @@ li {
 }
 .reasons p {
 padding: 6px;
+font-size: 23px;
 }
 .reasons h2 {
   text-decoration: underline;
+  font-size: 30px;
 }
 .why {
   flex: 50%;
@@ -163,6 +165,8 @@ padding: 6px;
   /* border-radius: 20px ;  Maybe change the text style to make it more clear if used border*/
   margin: 1rem 1rem 0 1rem;
   box-shadow: 14px 0px 2px 1px rgb(0 0 0);
+  /* background-color: #5d7d1b70; */
+  background-color: #ECCE8E;
 
 }
 /* .why {
@@ -196,34 +200,36 @@ hr {
 }
 /*Youtube video*/
 #video {
-  background-color: #749C75;
+  /* background-color: #749C75; */
   margin-top: -23px;
+  margin-bottom: -1px;
+  padding-bottom: 10px;
+
 }
 #video h2 {
   font-size: 40px;
-  padding-top: 34px;
+  padding-top: 10px;
 }
-#video h3 {
-  font-size: 23px;
-}
-#video h2 h3 {
-  color: #f5f5f5;
-}
-/* .youtube h3 p{
-    color: #1a1110;
-    text-align: center;
+/* #video h3 {
+  font-size: 32px;
 } */
+#video h2, h3 {
+  color: #314054;
+}
+
+
   /*Contact and maps*/
-  #contact {
+  /* #contact {
     background-color: #6A5D7B;
-  }
+    margin-top: -23px;
+  } */
   .map-and-form {
     display: flex;
   }
   .info{
     text-align: center;
     font-size: 40px;
-    color: whitesmoke;
+    /* padding-top: 2.3rem; */
   }
 #contact h4{
   font-size: 23px;
@@ -244,7 +250,7 @@ hr {
   
   #contact-form {
     display: flex;
-    background-color: #E9D985;
+    background-color: #F2F3D9;
     flex-direction: column;
     /* min-width: 200px; */
     margin: 2em 0;
@@ -254,9 +260,12 @@ hr {
     margin: 0 10px 9px; 
     border-radius: 18px;
   }
-  #contact-form > p {
-    color: white;
+  #contact-form > h2 {
+    font-size: 40px;
   }
+  /* #contact-form > p {
+    color: white;
+  } */
   .text-input {
     background: transparent;
     color: black;
@@ -281,6 +290,7 @@ input[type=radio]:first-of-type {
 }
 textarea {
   border: 1px solid #100c08;
+  border-radius: 10px;
   min-height: 80;
   min-width: 100;
 }
@@ -304,7 +314,11 @@ textarea {
   background-color: #3e8e41;
   box-shadow: 0 2px;
 }
-
+select {
+  border: 1px solid black;
+  border-radius: 30px;
+  width: 80%;
+}
 /*Centering iframe elements*/
 iframe {
   display: block;
@@ -339,7 +353,7 @@ footer li{
   width:max-content;
 } 
 #social-links i {
-  font-size: 160%;
+  font-size: 23px;
   margin: 1%; 
   padding: 5%; 
   color: #f5f5f5;
