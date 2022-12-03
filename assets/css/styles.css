@@ -19,7 +19,6 @@ h1, h2, h3, h4{
     color: #314054;
     font-weight: 100; 
     text-align: center;
-    /*font-size: 40px; Add a font-size seperately if h1 and h2 are used and need different sizes*/
 }
 
 p {
@@ -30,9 +29,8 @@ p {
 #logo {
     float: left;
     font-family: 'Courgette', cursive;
-    font-size: 350%;
+    font-size: 400%;
     color: #2E4057;
-    /* text-align: center; */
     
 }
 /*Navigation*/
@@ -57,7 +55,7 @@ li {
     float: right;
     padding: 12px;
     list-style-type: none;
-    font-size: 18px;
+    font-size: 20px;
   }
 
   /* a {
@@ -118,7 +116,7 @@ li {
     position: absolute;
     top: 50%; 
     left: 50%;
-    font-size: 35px;
+    font-size: 40px;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -231,6 +229,7 @@ hr {
     font-size: 40px;
     /* padding-top: 2.3rem; */
   }
+  /*maybe add an address and time tag? */
 #contact h4{
   font-size: 23px;
 }
@@ -256,7 +255,7 @@ hr {
     margin: 2em 0;
     padding: 1em 2em;
     align-items: center;
-    border: 7px solid cornflowerblue;
+    border: 5px solid;
     margin: 0 10px 9px; 
     border-radius: 18px;
   }
@@ -374,7 +373,7 @@ footer li{
     background-color: #E9D985;
   }
   .text {
-    font-size: 20px;
+    font-size: 30px;
     position: absolute;
     top: 50%; 
     left: 50%;
@@ -400,6 +399,12 @@ footer li{
   .map-and-form {
     display: flex;
     flex-direction: column;
+}
+#logo {
+  font-size: 369%;
+}
+.text {
+  font-size: 25px;
 }
 }
 @media (min-width: 320px) and (max-width: 480px) {
