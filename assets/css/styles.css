@@ -401,10 +401,17 @@ footer li{
 @media (min-width: 320px) and (max-width: 480px) {
 
   .text {
-    font-size: 15px;
+    font-size: 18px;
   }
   li {
     font-size: 12px;
+  }
+
+  .reasons p {
+    font-size: 16px;
+  }
+  .reasons h2 {
+    font-size: 28px;
   }
 .youtube > p {
   padding: 0 10px 0 10px;
@@ -425,6 +432,9 @@ footer li{
   }
   .map-and-form {
     flex-direction: column;
+  }
+  #contact-form > h2 {
+    font-size: 30px;
   }
   img {
     height: 370px;
