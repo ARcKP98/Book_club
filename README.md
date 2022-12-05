@@ -4,13 +4,40 @@ Book Club Finder is a simple, single page website for Internatioanl students in 
 
 ![The landing page on different devices](/Main%20page%20on%20different%20devices.png)
 
-The [link](https://arckp98.github.io/Book_club/) to the live project 
-
+### The [link](https://arckp98.github.io/Book_club/) to the live project 
+---
 ## Contents
-<hr>
+* [User Experience](#user-experience)
+  * [Owner's objective](#owner's-objective)
+  * [User Stories](#user-stories)
 
-![The landing page](the link/path)
+* [Design](#design)
+  * [Colour Scheme](#colour-scheme)
+  * [Typography](#typography)
+  * [Imagery](#imagery)
+  * [Wireframes](#wireframes)
 
-The [link](link.com) to the live project 
+* [Features](#features)
+  * [General Features on Each Page](#general-features-on-each-page)
+  * [Future Implementations](#future-implementations)
+  * [Accessibility](#accessibility)
+
+* [Technologies Used](#technologies-used)
+  * [Languages Used](#languages-used)
+  * [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
+
+* [Deployment & Local Development](#deployment--local-development)
+  * [Deployment](#deployment)
+  * [Local Development](#local-development)
+    * [How to Fork](#how-to-fork)
+    * [How to Clone](#how-to-clone)
+
+* [Testing](#testing)
+
+* [Credits](#credits)
+  * [Code Used](#code-used)
+  * [Content](#content)
+  * [Media](#media)
+  * [Acknowledgments](#acknowledgments)
 
 ### User Experience
