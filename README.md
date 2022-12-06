@@ -75,7 +75,13 @@ This font combination was chosen to give the website a clean and modern look tha
 <br>
 
 ### Imagery 
-The webiste only has one pciture that acts as a hero image. The image is from [Picjumbo](https://picjumbo.com/i-love-reading-heart-in-book-pages/). 
+The webiste only has one pciture that acts as a hero image. The image is from [Picjumbo](https://picjumbo.com/i-love-reading-heart-in-book-pages/) and credited in the [credits](#credits)
 <br>
 
 ## Features 
+### General Features
+Since this is a single page website, all the content is stacked on top of each other in order of importance. 
+The first section is the **About Us** which is a short description of what the service is for. This section was kept short to act as a landing page that provides information without taking too much time. The user can just look at it quickly and moving on. 
+[About us and landing page]()
+
+The next section outlines why you should join a book club, specifically through the book club service. There are 6 column cards that 
