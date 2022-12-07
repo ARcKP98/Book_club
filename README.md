@@ -1,8 +1,8 @@
 # Book Club Finder
 
-Book Club Finder is a simple, single page website for Internatioanl students in Amsterdam, The Netherlands. The site is for students who are studying in Amsterdam and would like to join a book club in order to get together to discuss books and socialise. The site was created because everyone around me was always mentioning the idea of book clubs and how it is just not possible for them to join a club. The site acts as a way to help students get in touch with the people who run and organise these clubs and eventually join a club since all the information that they might need is presented in a concise way without too much unnecessary detail. 
+Book Club Finder is a simple, single page website for Internatioanl students in Amsterdam, The Netherlands. The website is for students who are studying in Amsterdam and would like to join a book club in order to get together to discuss books and socialise. The website was created because everyone around me was always mentioning the idea of book clubs and how it is just not possible for them to join a club. The website acts as a way to help students get in touch with the people who run and organise these clubs and eventually join a club since all the information that they might need is presented in a concise way without too much unnecessary detail. 
 
-![The landing page on different devices](/Main%20page%20on%20different%20devices.png)
+![The landing page on different devices](/READ.ME%20images/Main%20page%20on%20different%20devices.png)
 
 ### The [link](https://arckp98.github.io/Book_club/) to the live project 
 ---
@@ -18,21 +18,21 @@ Book Club Finder is a simple, single page website for Internatioanl students in 
   <!-- * [Wireframes](#wireframes) -->
 
 * [Features](#features)
-  * [General Features on Each Page](#general-features-on-each-page)
+  * [General Features](#general-features)
   * [Future Implementations](#future-implementations)
   * [Accessibility](#accessibility)
 
 * [Technologies Used](#technologies-used)
   * [Languages Used](#languages-used)
-  * [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
+  * [Libraries and Programs Used](#libraries-and-programs-used)
+
+* [Testing](#testing)
 
 * [Deployment & Local Development](#deployment--local-development)
   * [Deployment](#deployment)
   * [Local Development](#local-development)
     * [How to Fork](#how-to-fork)
     * [How to Clone](#how-to-clone)
-
-* [Testing](#testing)
 
 * [Credits](#credits)
   * [Code Used](#code-used)
@@ -48,13 +48,13 @@ Book Club Finder is a simple, single page website for Internatioanl students in 
   The Book Club finder is a simple webiste that provides information regarding why joining a book club can be a good idea and how the service can help them to get a better experience by joining a club. Along with this the owners provide an external video source that outlines what to expect from a book club and benefits of joining one just to to show a different opinion. 
 
   ### User Stories
-  #### New User goals
+  #### New User Goals
   * I want to find out what the Book Club Finder does.
   * I want the information to be easy to read without looking too much. No need to toggle between pages.
   * I want a way to connect using social media and contact information of the service for queries. 
   * I want to see how using this service to join a Bookclub can improve my experience and how they operate.
 
-  #### Returning user goals 
+  #### Returning User Goals 
   * I want a way to contact the service digitally or in-person(Address).
   * I want to refer the service to others who might be interested without saying a lot.
   * I want to know how the service can help me if I am not sure. 
@@ -80,8 +80,79 @@ The webiste only has one pciture that acts as a hero image. The image is from [P
 
 ## Features 
 ### General Features
+The website has a logo at the beginning. Followed by the logo, there is a navigation bar that takes you to the desired sections. There are three main sections, each with its own purpose. 
+
 Since this is a single page website, all the content is stacked on top of each other in order of importance. 
 The first section is the **About Us** which is a short description of what the service is for. This section was kept short to act as a landing page that provides information without taking too much time. The user can just look at it quickly and moving on. 
-[About us and landing page]()
+![About us and landing page](/READ.ME%20images/About%20Us.png)
 
-The next section outlines why you should join a book club, specifically through the book club service. There are 6 column cards that 
+<br>
+
+The second section is **Why join us** and outlines why you should join a book club, specifically by using the book club service. There are 6 column cards that state and elaborate on the reason. The image below shows what a column card looks like. It shows what the service offers and how it can be beneficial for the user. 
+![An example of a reason](/READ.ME%20images/Reason.png)
+
+<br>
+This section also contains a Youtube video which is credited in the [credits](#credits) section. It provides a few reasons to join a book club. This video does not in any way encourage people to use the service but simply states why being part of a club can be beneficial. The column cards have more to do with why the service should be used whereas the video provides general reasons to join a book club.
+
+<br>
+
+The third section is the **Contact** section which provides user with a way of contacting the service. The information includes:
+* An Address and the operating times for people to visit. 
+* A contact form to get in touch regarding sign-ups and questions. 
+* A google map to help with directions which shows the relevant parts of the city. 
+
+<br>
+
+### Future Implementations
+In the future, I would like to add more functionality and features to the website in order to improve the user experience by including: 
+* Add additional pages for testimonials with a mini gallery. 
+* Adding a hamburger menu style for navigation, specifically for mobile users. I did not implement this because all my nav elements were visible and had enough space without obstructing the user experience. 
+* Implement continuous navigation using the scrollspy bootstrap with a fixed navigation bar so that the user knew which section/page they were on. I did not use it in this project because I was not comfortable with bootstrapping. 
+* Adding a section/page for future events that the service can organise so users can know where they are. 
+ <!--* Adding a portal of sorts where people can see which group they are currently with contact info of members of their respective clubs-->
+<!--* A page for book reviews that are being read by all the clubs.-->
+
+<br>
+
+### Accessibility
+Keeping accessibility in mind, I have ensured that: 
+* The colour contrast meets the minimum requirement since the rating is AA. 
+* Aria-label were used where required to make the website screen-reader friendly.
+* Using semantic HTML.
+
+<br>
+
+## Technologies Used
+### Languages Used
+* HTML 
+* CSS
+
+<br>
+
+### Libraries and Programs Used 
+* Google fonts: Import fonts to the website
+* Gitpod: To edit code and READ.ME file along with storing pictures.
+* Github: To host the project using Github pages and to store the project repository. 
+* Git: To control versions of the website. 
+* Picjumbo: To get the hero-image. 
+* Font Awesome: For different social media icons.
+* Coolors: To generate a colour palette for the website. 
+* Google DevTools: To test changes to the website along with responsiveness. Also used to measure colour contrast and to emulate vision deficiency. 
+* Am I Responsive: Viewing website on different devices.
+- [BIRME](https://www.birme.net/?): To resize images
+- [ezgif.com](https://ezgif.com/png-to-webp): To convert images to webp files
+- Balsamiq: Creating a Wireframe. 
+
+<br>
+
+## Testing
+### Functionality testing 
+The website was tested on a wide range of screen options to ensures responsiveness. The devices used were: 
+- Macbook air(2560x1600)
+- MSI monitor (1920x1080)
+- Surface Pro 7 (912x1368)
+- iPhone 5/SE (320x568)
+
+
+
+

@@ -229,6 +229,9 @@ hr {
   /* #map  > p {
     color: maroon;
   } */
+  .imap {
+    margin-left: 2rem;
+  }
   label {
     display: block;
     margin-top: 13px;
@@ -316,8 +319,8 @@ iframe {
   display: block;
   padding-bottom: 7px;
   margin: 0 auto;
-  /* margin-left: auto;
-  margin-right: auto; */
+  /* margin-left: auto; */
+  /*margin-right: auto; */
 }
   /*Footer*/
 footer {
@@ -415,9 +418,7 @@ footer li{
   .reasons h2 {
     font-size: 28px;
   }
-.youtube > p {
-  padding: 0 10px 0 10px;
-}
+
 .reasons {
   display: flex;
   flex-wrap: wrap;
@@ -446,5 +447,11 @@ footer li{
   } 
   #logo {
     font-size: 230%;
+  }
+}
+
+@media (min-width: 1668px) and (max-width: 2560px) {
+  #contact-form {
+    margin-right: 5rem;
   }
 }
