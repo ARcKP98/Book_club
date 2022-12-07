@@ -80,10 +80,13 @@ The webiste only has one pciture that acts as a hero image. The image is from [P
 
 ## Features 
 ### General Features
-The website has a logo at the beginning. Followed by the logo, there is a navigation bar that takes you to the desired sections. There are three main sections, each with its own purpose. 
+The website has a logo at the beginning. Followed by the logo, there is a navigation bar that takes you to the desired sections. 
+![Logo + navigation bar ]()
+<br>
+There are three main sections, each with its own purpose. 
+<br>
 
-Since this is a single page website, all the content is stacked on top of each other in order of importance. 
-The first section is the **About Us** which is a short description of what the service is for. This section was kept short to act as a landing page that provides information without taking too much time. The user can just look at it quickly and moving on. 
+The first section is the **About Us** which is a short description of what the service is for. This section was kept short to acts as a landing page that provides information without taking too much time. The user can just look at it quickly and moving on. 
 ![About us and landing page](/READ.ME%20images/About%20Us.png)
 
 <br>
@@ -100,6 +103,10 @@ The third section is the **Contact** section which provides user with a way of c
 * An Address and the operating times for people to visit. 
 * A contact form to get in touch regarding sign-ups and questions. 
 * A google map to help with directions which shows the relevant parts of the city. 
+![Contact form and map]()
+
+The footer provides users with all the social media links
+![Footer]()
 
 <br>
 
@@ -152,6 +159,20 @@ The website was tested on a wide range of screen options to ensures responsivene
 - MSI monitor (1920x1080)
 - Surface Pro 7 (912x1368)
 - iPhone 5/SE (320x568)
+This was done using Chrome DevTools. This esnured that all the content was presented on the page as intended without any major misalignments. 
+
+### Issues discovered
+| Issue|  Solution | Discovered by
+| -------- | ----------- | ---------------
+| The map and contact form were too spread-out on 4k monitors.  | Add a mrgin-left to the map so that it looks bette. | Me while developing
+| The aspect ratio and styling of the image was not correct which led to a bad score. | Changed the ratio of the image and conveted from a .JPEG to .WebP| Lighthouse
+| The footer elements were not being centered | The footer content was broken down into classes and then I used flex-display to center the elements. | Me with help from tutor support
+| Error with image source where "width=100%" was not acceptable in the HTML document.| Styled the image with CSS | W3C validator
+| With maps, allowfullscreen attribute was set to true. | Removed the attribute to improve preformance.| W3C validators
+| By setting the scroll-style to smooth, the performance was affected
+
+
+
 
 
 
