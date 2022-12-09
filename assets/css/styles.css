@@ -110,8 +110,8 @@ li {
     top: 50%; 
     left: 50%;
     font-size: 40px;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
+    /* -webkit-transform: translate(-50%, -50%); */
+    /* -ms-transform: translate(-50%, -50%); */
     transform: translate(-50%, -50%);
     text-align: center;
   }
@@ -231,6 +231,7 @@ hr {
   } */
   .imap {
     margin-left: 2rem;
+    margin: 0 auto;
   }
   label {
     display: block;
@@ -286,8 +287,8 @@ input[type=radio]:first-of-type {
 textarea {
   border: 1px solid #100c08;
   border-radius: 10px;
-  min-height: 80;
-  min-width: 100;
+  min-height: 80px;
+  min-width: 100px;
 }
 .submit-button{
   display: block;
@@ -330,7 +331,6 @@ footer {
 }
 footer p {
     color: #f5f5f5;
-    font-style:'Titillium Web', sans-serif;
     text-align: center;
 }
 #social-links {
@@ -373,19 +373,22 @@ footer li{
     position: absolute;
     top: 50%; 
     left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
+    /* -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%); */
     transform: translate(-50%, -50%);
     text-align: center;
   }
   iframe {
     width: 80%;
-    height: 60;
+    /* height: 60; */
   }
   div .map-and-form {
     display: flex;
     flex-direction: column;
   }
+  /* .imap {
+    margin-left: 2rem;
+  } */
   textarea {
     width: 100%;
   }
@@ -419,6 +422,7 @@ footer li{
     font-size: 28px;
   }
 
+
 .reasons {
   display: flex;
   flex-wrap: wrap;
@@ -427,7 +431,7 @@ footer li{
     /* width: auto;
     height: auto; */
     width: 80%;
-    height: 60;
+    height: 450px;
   }
 
   textarea {

@@ -71,7 +71,7 @@ Book Club Finder is a simple, single page website for Internatioanl students in 
   - The logo of the webiste uses the font **Courgette**.
   - All the headings use the font **Chivo** with sans-serif as backup.
   - All the paragraph elements use the font **Titillium Web** with sans-serif as backup.
-This font combination was chosen to give the website a clean and modern look that . This combination was generated using [fontjoy](https://fontjoy.com/). 
+This font combination was chosen to give the website a clean and modern look that is visually appealing. This combination was generated using [fontjoy](https://fontjoy.com/). 
 <br>
 
 ### Imagery 
@@ -131,8 +131,8 @@ Keeping accessibility in mind, I have ensured that:
 
 ## Technologies Used
 ### Languages Used
-* HTML 
-* CSS
+* HTML5
+* CSS3
 
 <br>
 
@@ -147,7 +147,7 @@ Keeping accessibility in mind, I have ensured that:
 * Google DevTools: To test changes to the website along with responsiveness. Also used to measure colour contrast and to emulate vision deficiency. 
 * Am I Responsive: Viewing website on different devices.
 - [BIRME](https://www.birme.net/?): To resize images
-- [ezgif.com](https://ezgif.com/png-to-webp): To convert images to webp files
+<!-- - [ezgif.com](https://ezgif.com/png-to-webp): To convert images to webp files -->
 - Balsamiq: Creating a Wireframe. 
 
 <br>
@@ -159,17 +159,40 @@ The website was tested on a wide range of screen options to ensures responsivene
 - MSI monitor (1920x1080)
 - Surface Pro 7 (912x1368)
 - iPhone 5/SE (320x568)
+<br>
 This was done using Chrome DevTools. This esnured that all the content was presented on the page as intended without any major misalignments. 
 
 ### Issues discovered
+The table below outlines the issues and bugs that came up during development and after initial deployment. 
 | Issue|  Solution | Discovered by
 | -------- | ----------- | ---------------
 | The map and contact form were too spread-out on 4k monitors.  | Add a mrgin-left to the map so that it looks bette. | Me while developing
 | The aspect ratio and styling of the image was not correct which led to a bad score. | Changed the ratio of the image and conveted from a .JPEG to .WebP| Lighthouse
-| The footer elements were not being centered | The footer content was broken down into classes and then I used flex-display to center the elements. | Me with help from tutor support
+| The footer elements were not being centered despite specifying the rule| The footer content was broken down into classes and then  used flex-display to center the elements. | Me with help from tutor support
 | Error with image source where "width=100%" was not acceptable in the HTML document.| Styled the image with CSS | W3C validator
 | With maps, allowfullscreen attribute was set to true. | Removed the attribute to improve preformance.| W3C validators
-| By setting the scroll-style to smooth, the performance was affected
+| By setting the scroll-style to smooth performance was affected | Removed smooth-scroll from the CSS | Lighthouse
+| CSS error where units for height were missing. | Added units to the mentioned properties. | W3C validator
+| Vendor extensions were throwing a warning | Identified their importance and removed them. | W3C validator
+<br>
+
+Known bugs
+- The website still has a cache issue where the cache policy is not defined. It affects the performance by slowing down the laoding of website elements like google maps, youtube video, and fonts.
+- There are errors logged on console because of google maps. 
+
+#### Mentor advice/guidance
+- Improve my colour scheme since I had 5 different colours for each section. 
+- Use column cards for my why join us section. 
+- Suggesting to use a different image to improve visibility.
+- For providing me with useful resources like READ.ME samples. 
+
+<details>
+    <summary>Lighthouse</summary>
+    ! [Lighthouse score mobile] (READ.ME%20images/Lighthouse_mobile.png)
+</details>
+
+
+
 
 
 
