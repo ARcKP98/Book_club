@@ -59,8 +59,10 @@ Book Club Finder is a simple, single page website for Internatioanl students in 
   #### New User Goals
   * I want to find out what the Book Club Finder does.
   * I want the information to be easy to read without looking too much. No need to toggle between pages.
-  * I want a way to connect using social media and contact information of the service for queries. 
-  * I want to see how using this service to join a Bookclub can improve my experience and how they operate.
+  * I want a way to connect using social media and contact information of the service for questions. 
+  <!-- * I want to see how using this service to join a Bookclub can improve my experience and how they operate. -->
+  * I want to see how using this service to join a Bookclub is a better option for me.
+
 
   #### Returning User Goals 
   * I want a way to contact the service digitally or in-person(Address).
@@ -126,6 +128,7 @@ In the future, I would like to add more functionality and features to the websit
 * Adding a hamburger menu style for navigation, specifically for mobile users. I did not implement this because all my nav elements were visible and had enough space without obstructing the user experience. 
 * Implement continuous navigation using the scrollspy bootstrap with a fixed navigation bar so that the user knew which section/page they were on. I did not use it in this project because I was not comfortable with bootstrapping. 
 * Adding a section/page for future events that the service can organise so users can know where they are. 
+* I would only like to add a part of the youtube video instead of the entire video so that the point of the video is more clear.
  <!--* Adding a portal of sorts where people can see which group they are currently with contact info of members of their respective clubs-->
 <!--* A page for book reviews that are being read by all the clubs.-->
 
@@ -166,17 +169,45 @@ Keeping accessibility in mind, I have ensured that:
 ### Functionality testing 
 The website was tested on a wide range of screen options to ensures responsiveness. The devices used were: 
 - Macbook air(2560x1600)
-- MSI monitor (1920x1080)
-- Surface Pro 7 (912x1368)
-- iPhone 5/SE (320x568)
+- iPhone 11 (320x568)
 <br>
-This was done using Chrome DevTools. This esnured that all the content was presented on the page as intended without any major misalignments. 
+Chrome DevTools was used to check responsiveness with different screen sizes. This esnured that all the content was presented on the page as intended without any major misalignments. 
+<br>
+
+### User Goals Testing
+The table below outlines client objectives and whether they were accomplished or not.
+| Client Objective| How was it addressed | Accomplished
+| -------- | ----------- | ---------------
+| Provide information about the service. | The website states that by providing all the neccesary contact information. | Yes
+| Provides good reasons to join a club through the service. | The website has a section that outlines reasons to join a club and how the service can help. The website also has a video that supports these reasons and additional reasons. | Yes
+| All the information is simple to read and follow. | All the website content is arranged on a single page which makes it easy to follow. All the elements of the website are readable. 
+<!-- Allow us to identify/record how people are hearing about us -->
+
+<br>
+
+The table below outlines first-time users goals and whether they were accomplished or not.
+| First-time User Goals| How was it addressed | Accomplished
+| ------ | --------- | -----------
+| I want to find out what the Book Club Finder does. | The first thing on the website is the purpose of the book club. | Yes
+| I want the information to be easy to read without looking too much. No need to toggle between pages. | The website follows a colour scheme that allows the user to read with ease. It also distinguishes between different types of information. All information can be found on a single page. | Yes
+| I want a way to connect using social media and contact information of the service for questions. | The webiste has social media links that belong to the service and a contact form that allows users to send in questions. | Yes
+| I want to see how using this service to join a Bookclub is a better option for me. | The website states reasons for joining a bookclub and how the service can facilitate to achieve those. | Yes 
+
+<br>
+
+| Returning User Goals| How was it addressed | Accomplished
+| ------ | --------- | -----------
+| I want a way to contact the service digitally or in-person(Address). | Since the website is easy to navigate, users can just go to the contact section which has all the neccesary information. | Yes
+| I want to refer the service to others who might be interested without saying a lot. | The website has all the important information laid out briefly so other people not spend more time than is neccessary. The website link can be shared and viewed on any modern device. | Yes
+| I want to know how the service can help me if I am not sure. | The website shows how it can help and has a contact form if there are specific questions. | Yes
+
+<br>
 
 ### Issues discovered
 The table below outlines the issues and bugs that came up during development and after initial deployment. 
 | Issue|  Solution | Discovered by
-| -------- | ----------- | ---------------
-| The map and contact form were too spread-out on 4k monitors.  | Add a mrgin-left to the map so that it looks bette. | Me while developing
+| ------ | --------- | -----------
+| The map and contact form were too spread-out on 4k monitors.  | Add a mrgin-left to the map so that it looks better. | Me while developing
 | The aspect ratio and styling of the image was not correct which led to a bad score. | Changed the ratio of the image and conveted from a .JPEG to .WebP| Lighthouse
 | The footer elements were not being centered despite specifying the rule| The footer content was broken down into classes and then  used flex-display to center the elements. | Me with help from tutor support
 | Error with image source where "width=100%" was not acceptable in the HTML document.| Styled the image with CSS | W3C validator
@@ -184,6 +215,7 @@ The table below outlines the issues and bugs that came up during development and
 | By setting the scroll-style to smooth performance was affected | Removed smooth-scroll from the CSS | Lighthouse
 | CSS error where units for height were missing. | Added units to the mentioned properties. | W3C validator
 | Vendor extensions were throwing a warning | Identified their importance and removed them. | W3C validator
+<!-- maybe remove smooth-scroll comment -->
 <br>
 
 Known bugs
@@ -196,6 +228,9 @@ Known bugs
 - Suggesting to use a different image to improve visibility.
 - For providing me with useful resources like READ.ME samples. 
 
+<br>
+
+### Lighthouse testing:
 <details>
     <summary>Lighthouse Desktop</summary>
 
@@ -206,11 +241,20 @@ Known bugs
 
 ![Screenshot of Lighthouse testing for the website](/readme-images/lighthouse_mobile.png) 
 </details>
+<br>
+
+### W3C Validation:
 <details>
     <summary>W3C CSS validation</summary>
 
 ![Screenshot of W3C CSS validation for the website](/readme-images/w3c_css_validation.png) 
 </details>
+<details>
+    <summary>W3C HTML validation</summary>
+
+![Screenshot of W3C HTML validation for the website](/readme-images/w3c_html_validation.png) 
+</details>
+
 
 
 
