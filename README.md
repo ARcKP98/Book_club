@@ -39,8 +39,8 @@ Book Club Finder is a simple, single page website for Internatioanl students in 
 * [Deployment & Local Development](#deployment--local-development)
   * [Deployment](#deployment)
   * [Local Development](#local-development)
-    * [How to Fork](#how-to-fork)
-    * [How to Clone](#how-to-clone)
+    * [Fork](#fork)
+    * [Clone](#clone)
 
 * [Credits](#credits)
   * [Code Used](#code-used)
@@ -254,6 +254,44 @@ Known bugs
 
 ![Screenshot of W3C HTML validation for the website](/readme-images/w3c_html_validation.png) 
 </details>
+
+## Deployment & Local Development 
+### Deployment 
+The website was deployed on Github pages using Github. Since the project was built using Gitpod, Git version control was used to commit changes and push them to Github project repository. To deploy the project: 
+1. Log in with your Github account or make one if you don't have one. 
+2. Find the repository: Book_club
+3. Click the setting button that is on the menu bar. 
+4. Look for the code automation menu and click the pages option. 
+5. Make sure  the source is set to **Deploy from a branch**. 
+6. Set the branch to **main** and set the folder next to it to **/(root)**. 
+7. Click save. After a couple of minutes, you should have a URL of the page at the beginning of the pages section. 
+<br>
+
+### Local Development  
+1. Log in with your Github account or make one if you don't have one. 
+2. Find the repository: Book_club.
+3. Click on the **Code** button next to Gitpod. 
+4. Download the zip file and run extract it on your device. Now you can use it in your preffered code editor. 
+<br>
+
+As an alternative to downloading, you can fork or clone the project repository. 
+#### Fork
+1. Log in with your Github account or make one if you don't have one. 
+2. Find the repository: Book_club.
+3. Click the Fork button on the top right corner. 
+<br>
+
+#### Clone 
+1. Log in with your Github account or make one if you don't have one. 
+2. Find the repository: Book_club.
+3. Click the **Code** button next to the Gitpod button and **copy** the HTTPS link. 
+4. Open the terminal. 
+5. Make sure that the current directory is the one where you want the cloned repository to be. 
+6. Use the command ```git clone``` and paste the link. 
+7. Press Enter. Now the repository is cloned. 
+
+
+
 
 
 
