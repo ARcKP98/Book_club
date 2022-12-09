@@ -2,7 +2,15 @@
 
 Book Club Finder is a simple, single page website for Internatioanl students in Amsterdam, The Netherlands. The website is for students who are studying in Amsterdam and would like to join a book club in order to get together to discuss books and socialise. The website was created because everyone around me was always mentioning the idea of book clubs and how it is just not possible for them to join a club. The website acts as a way to help students get in touch with the people who run and organise these clubs and eventually join a club since all the information that they might need is presented in a concise way without too much unnecessary detail. 
 
-![The landing page on different devices](/READ.ME%20images/Main%20page%20on%20different%20devices.png)
+![The landing page on different devices](/readme-images/main-page-on-different-devices.png)
+<p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+</p>
+<br>
 
 ### The [link](https://arckp98.github.io/Book_club/) to the live project 
 ---
@@ -63,7 +71,7 @@ Book Club Finder is a simple, single page website for Internatioanl students in 
   ## Design 
   ### Colour Scheme
   The colour palette below was used to deign the website. The palette was created using [Coolors](https://coolors.co/)
-  ![Colour palette](READ.ME%20images/Book%20club%20finder%20color%20palette.png)
+  ![Colour palette](/readme-images/book-club-finder-colour-palette.png)
   <br>
 
   ### Typography 
@@ -81,18 +89,18 @@ The webiste only has one pciture that acts as a hero image. The image is from [P
 ## Features 
 ### General Features
 The website has a logo at the beginning. Followed by the logo, there is a navigation bar that takes you to the desired sections. 
-![Logo + navigation bar ]()
+![Logo + navigation bar ](/readme-images/logo-and-nav.png)
 <br>
 There are three main sections, each with its own purpose. 
 <br>
 
 The first section is the **About Us** which is a short description of what the service is for. This section was kept short to acts as a landing page that provides information without taking too much time. The user can just look at it quickly and moving on. 
-![About us and landing page](/READ.ME%20images/About%20Us.png)
+![About us and landing page](/readme-images/about-us.png)
 
 <br>
 
 The second section is **Why join us** and outlines why you should join a book club, specifically by using the book club service. There are 6 column cards that state and elaborate on the reason. The image below shows what a column card looks like. It shows what the service offers and how it can be beneficial for the user. 
-![An example of a reason](/READ.ME%20images/Reason.png)
+![An example of a reason](/readme-images/reason.png)
 
 <br>
 This section also contains a Youtube video which is credited in the [credits](#credits) section. It provides a few reasons to join a book club. This video does not in any way encourage people to use the service but simply states why being part of a club can be beneficial. The column cards have more to do with why the service should be used whereas the video provides general reasons to join a book club.
@@ -103,10 +111,12 @@ The third section is the **Contact** section which provides user with a way of c
 * An Address and the operating times for people to visit. 
 * A contact form to get in touch regarding sign-ups and questions. 
 * A google map to help with directions which shows the relevant parts of the city. 
-![Contact form and map]()
+![Contact form and map](/readme-images/contact-info.png)
+<br>
 
 The footer provides users with all the social media links
-![Footer]()
+<br>
+![Footer](/readme-images/footer.png)
 
 <br>
 
@@ -187,10 +197,20 @@ Known bugs
 - For providing me with useful resources like READ.ME samples. 
 
 <details>
-    <summary>Lighthouse</summary>
-    ! [Lighthouse score mobile] (READ.ME%20images/Lighthouse_mobile.png)
-</details>
+    <summary>Lighthouse Desktop</summary>
 
+![Screenshot of Lighthouse testing for the website](/readme-images/lighhouse_desktop.png) 
+</details>
+<details>
+    <summary>Lighthouse Mobile</summary>
+
+![Screenshot of Lighthouse testing for the website](/readme-images/lighthouse_mobile.png) 
+</details>
+<details>
+    <summary>W3C CSS validation</summary>
+
+![Screenshot of W3C CSS validation for the website](/readme-images/w3c_css_validation.png) 
+</details>
 
 
 
