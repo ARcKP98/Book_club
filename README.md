@@ -89,6 +89,45 @@ This font combination was chosen to give the website a clean and modern look tha
 
 ### Imagery 
 The webiste only has one pciture that acts as a hero image. The image is from [Picjumbo](https://picjumbo.com/i-love-reading-heart-in-book-pages/) and credited in the [credits](#credits)
+
+### Wireframes 
+<details>
+    <summary>Wireframe section 1(Desktop)</summary>
+
+![Screenshot of Balsamiq wireframe, section 1](/readme-images/wireframe/desktop.png) 
+<br>
+
+! [Screenshot of Balsamiq wireframe, section 1](/readme-images/wireframe/desktop1.png)
+
+</details>
+<br>
+<details>
+    <summary>Wireframe section 2(Desktop)</summary>
+
+![Screenshot of Balsamiq wireframe, section 2](/readme-images/wireframe/desktop2.png) 
+</details>
+<br>
+
+<details>
+    <summary>Wireframe section 3(Desktop)</summary>
+
+![Screenshot of Balsamiq wireframe, section 3](/readme-images/wireframe/desktop3.png) 
+</details>
+<br>
+<details>
+    <summary>Wireframe section 1 and 2(Mobile)</summary>
+
+![Screenshot of Balsamiq wireframe, section 1 and 2](/readme-images/wireframe/mobile1.png) 
+<br>
+
+![Screenshot of Balsamiq wireframe, section 1 and 2](/readme-images/wireframe/mobile2.png) 
+</details>
+<br>
+<details>
+    <summary>Wireframe section 3(Mobile)</summary>
+
+![Screenshot of Balsamiq wireframe, section 1 and 2](/readme-images/wireframe/mobile3.png)
+</details>
 <br>
 
 ## Features 
@@ -174,7 +213,7 @@ The website was tested on a wide range of screen options to ensures responsivene
 - Macbook air(2560x1600)
 - iPhone 11 (320x568)
 <br>
-Chrome DevTools was used to check responsiveness with different screen sizes. This esnured that all the content was presented on the page as intended without any major misalignments. 
+Chrome DevTools was used to check responsiveness by emulating different screen sizes. This esnured that all the content was presented on the page as intended without any major misalignments. 
 <br>
 
 ### User Goals Testing
@@ -223,7 +262,7 @@ The table below outlines the issues and bugs that came up during development and
 
 ### Known bugs
 - The website still has a cache issue where the cache policy is not defined. It affects the performance by slowing down the laoding of website elements like google maps, youtube video, and fonts.
-- There are errors logged on console because of google maps. 
+- There are errors logged on console because of google maps. This affects the best practice score. 
 
 ### Mentor advice/guidance
 - Improve my colour scheme since I had 5 different colours for each section. 
@@ -308,6 +347,7 @@ As an alternative to downloading, you can fork or clone the project repository.
 ### Media 
 * The hero image used was from [Picjumbo](https://picjumbo.com/i-love-reading-heart-in-book-pages/)
 * The Youtube video used was from Youtuber [Lana Blakely](https://www.youtube.com/watch?v=GfGsd7vaGQ8&themeRefresh=1)
+
 <br>
 
 ### Acknowledgments
