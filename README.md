@@ -35,6 +35,9 @@ Book Club Finder is a simple, single page website for Internatioanl students in 
   * [Libraries and Programs Used](#libraries-and-programs-used)
 
 * [Testing](#testing)
+  * [Issues Discovered](#issues-discovered)
+  * [Lighthouse Score](#lighthouse-testing)
+  * [W3C Validation Score](#w3c-validation)
 
 * [Deployment & Local Development](#deployment--local-development)
   * [Deployment](#deployment)
@@ -218,11 +221,11 @@ The table below outlines the issues and bugs that came up during development and
 <!-- maybe remove smooth-scroll comment -->
 <br>
 
-Known bugs
+### Known bugs
 - The website still has a cache issue where the cache policy is not defined. It affects the performance by slowing down the laoding of website elements like google maps, youtube video, and fonts.
 - There are errors logged on console because of google maps. 
 
-#### Mentor advice/guidance
+### Mentor advice/guidance
 - Improve my colour scheme since I had 5 different colours for each section. 
 - Use column cards for my why join us section. 
 - Suggesting to use a different image to improve visibility.
@@ -289,6 +292,29 @@ As an alternative to downloading, you can fork or clone the project repository.
 5. Make sure that the current directory is the one where you want the cloned repository to be. 
 6. Use the command ```git clone``` and paste the link. 
 7. Press Enter. Now the repository is cloned. 
+<br>
+
+## Credits 
+### Code Used
+* The Code Institute student template. [The Template](https://github.com/Code-Institute-Org/gitpod-full-template). 
+* The W3Schools for column cards and overlay effect for the hero-image.
+* Tutor support for assisting with the footer element. 
+<br>
+
+### Content 
+* All the content was written by @ARcKP98
+<br>
+
+### Media 
+* The hero image used was from [Picjumbo](https://picjumbo.com/i-love-reading-heart-in-book-pages/)
+* The Youtube video used was from Youtuber [Lana Blakely](https://www.youtube.com/watch?v=GfGsd7vaGQ8&themeRefresh=1)
+<br>
+
+### Acknowledgments
+* Adegbenga Adeye for answering my questions and providing me with useful resources and feedback on the project. 
+* The slack channel for answering my questions. 
+* The tutor suport for helping me understand flexbox better. 
+
 
 
 
