@@ -250,7 +250,7 @@ The table below outlines the issues and bugs that came up during development and
 | Issue|  Solution | Discovered by
 | ------ | --------- | -----------
 | The map and contact form were too spread-out on 4k monitors.  | Add a mrgin-left to the map so that it looks better. | Me while developing
-| The aspect ratio and styling of the image was not correct which led to a bad score. | Changed the ratio of the image and conveted from a .JPEG to .WebP| Lighthouse
+| The aspect ratio and styling of the image was not correct which led to a bad score. | Added an object-fit declaration for the image and conveted from a .JPEG to .WebP| Lighthouse
 | The footer elements were not being centered despite specifying the rule| The footer content was broken down into classes and then  used flex-display to center the elements. | Me with help from tutor support
 | Error with image source where "width=100%" was not acceptable in the HTML document.| Styled the image with CSS | W3C validator
 | With maps, allowfullscreen attribute was set to true. | Removed the attribute to improve preformance.| W3C validators
