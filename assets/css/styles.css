@@ -6,7 +6,6 @@
   margin: 0;
   padding: 0;
   border: none;
-  /* scroll-behavior: smooth; */
 }
 
 /*General styles for the website. */
@@ -38,7 +37,6 @@ p {
   float: left;
   font-family: 'Courgette', cursive;
   font-size: 400%;
-  /* letter-spacing: 2px; */
   color: #2E4057;
 
 }
@@ -62,19 +60,12 @@ li a {
   display: block;
   color: #083D77;
   text-align: center;
-  /* padding: 10px 15px; */
   text-decoration: none;
-  /* padding-bottom: 3px; */
 }
 
 li a:hover {
   border-bottom: 1px solid #083D77;
 }
-
-/* .active {
-    border-bottom: 1px solid #083D77;
-    padding-bottom: 3px;
-} */
 
 /*Cover-image*/
 .container {
@@ -103,7 +94,6 @@ img {
   right: 0;
   width: 100%;
   height: 550px;
-  /*height: 100%; change the width and remove the hover effect change the opacity to 0 if we stick with 50 and no hover.*/
   opacity: 0.8;
   background-color: #FFEE93;
 }
@@ -220,7 +210,6 @@ label {
   display: flex;
   background-color: #F2F3D9;
   flex-direction: column;
-  /* min-width: 200px; */
   margin: 2em 0;
   padding: 1em 2em;
   align-items: center;
@@ -233,16 +222,10 @@ label {
   font-size: 40px;
 }
 
-/* #contact-form > p {
-    color: white;
-  } */
 .text-input {
   background: transparent;
   color: black;
   width: 100%;
-  /*90 looks good*/
-  /* height: 10px; */
-  /* margin: 3px 0 3px 0; */
   border: none;
   border-bottom: 1px solid black;
 }
@@ -330,7 +313,6 @@ footer li {
 #social-links {
   display: flex;
   flex-direction: row;
-  /*align-items:center;*/
   justify-content: center;
   width: max-content;
 }
@@ -356,11 +338,6 @@ footer li {
 
   .text {
     font-size: 30px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
   }
 
   iframe {
@@ -417,6 +394,9 @@ footer li {
     font-size: 28px;
   }
 
+  .youtube h2, h3 {
+    padding: 1px 2px;
+  }
 
   .reasons {
     display: flex;
