@@ -3,25 +3,29 @@
 
 /*Removes the web default style*/
 * {
-    margin: 0;
-    padding: 0;
-    border: none;
-    /* scroll-behavior: smooth; */
-}
-/*General styles for the website. */
-body {
-    font-family: 'Titillium Web', sans-serif;
-    font-weight: 300;
-    color: #1a1110;
-    position: relative;
-    background-color: #FCF5C7;
+  margin: 0;
+  padding: 0;
+  border: none;
+  /* scroll-behavior: smooth; */
 }
 
-h1, h2, h3, h4{
+/*General styles for the website. */
+body {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 300;
+  color: #1a1110;
+  position: relative;
+  background-color: #FCF5C7;
+}
+
+h1,
+h2,
+h3,
+h4 {
   font-family: 'Chivo', sans-serif;
-    color: #314054;
-    font-weight: 100; 
-    text-align: center;
+  color: #314054;
+  font-weight: 100;
+  text-align: center;
 }
 
 p {
@@ -31,86 +35,93 @@ p {
 
 /*The logo styling.*/
 #logo {
-    float: left;
-    font-family: 'Courgette', cursive;
-    font-size: 400%;
-    /* letter-spacing: 2px; */
-    color: #2E4057;
-    
+  float: left;
+  font-family: 'Courgette', cursive;
+  font-size: 400%;
+  /* letter-spacing: 2px; */
+  color: #2E4057;
+
 }
+
 /*Navigation styling*/
 header {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   align-items: center;
 }
+
 li {
-    display: inline;
-    float: right;
-    padding: 12px;
-    list-style-type: none;
-    font-size: 20px;
-  }
+  display: inline;
+  float: right;
+  padding: 12px;
+  list-style-type: none;
+  font-size: 20px;
+}
+
 li a {
-    display: block;
-    color: #083D77;
-    text-align: center;
-    /* padding: 10px 15px; */
-    text-decoration: none;
-    /* padding-bottom: 3px; */
-  }
+  display: block;
+  color: #083D77;
+  text-align: center;
+  /* padding: 10px 15px; */
+  text-decoration: none;
+  /* padding-bottom: 3px; */
+}
 
-  li a:hover {
-    border-bottom: 1px solid #083D77;
-  }
+li a:hover {
+  border-bottom: 1px solid #083D77;
+}
 
-  /* .active {
+/* .active {
     border-bottom: 1px solid #083D77;
     padding-bottom: 3px;
 } */
 
 /*Cover-image*/
 .container {
-    position: relative;
-    width: 100%;
+  position: relative;
+  width: 100%;
 }
-  
-  .hero-image {
-    display: flex;
-    width: 100%;
-    height: 550px;
-  }
-  img {
-    width:100%; 
-    height:550px;
-    /* object-fit: cover; */
-  }
-  /*The yellow "tint" over the image.*/
-  .overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    height: 550px;
-    /*height: 100%; change the width and remove the hover effect change the opacity to 0 if we stick with 50 and no hover.*/
-    opacity: 0.8;
-    background-color: #FFEE93;
-  }
-  /*Text over the image.*/
-  .text {
-    position: absolute;
-    top: 50%; 
-    left: 50%;
-    font-size: 40px;
-    transform: translate(-50%, -50%);
-    text-align: center;
-  }
-  .text h1 h4 {
-    color: #100c08;
-  }
- 
+
+.hero-image {
+  display: flex;
+  width: 100%;
+  height: 550px;
+}
+
+img {
+  width: 100%;
+  height: 550px;
+  /* object-fit: cover; */
+}
+
+/*The yellow "tint" over the image.*/
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 550px;
+  /*height: 100%; change the width and remove the hover effect change the opacity to 0 if we stick with 50 and no hover.*/
+  opacity: 0.8;
+  background-color: #FFEE93;
+}
+
+/*Text over the image.*/
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 40px;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text h1 h4 {
+  color: #100c08;
+}
+
 /*Section 2*/
 /*Extra rules to distinguish different sections.*/
 #join {
@@ -118,13 +129,14 @@ li a {
   margin-bottom: -23px;
   padding-bottom: 4rem;
 }
+
 /*The heading for the section.*/
 #why-join-us {
-    text-align: center;
-    font-size: 40px;
-    padding-top: 10px;
-    margin-bottom: -10px;
-    color: #2E4057;
+  text-align: center;
+  font-size: 40px;
+  padding-top: 10px;
+  margin-bottom: -10px;
+  color: #2E4057;
 }
 
 /*Column card and the text inside..*/
@@ -132,19 +144,22 @@ li a {
   display: flex;
   padding: 7px;
 }
+
 .reasons p {
-padding: 6px;
-font-size: 23px;
+  padding: 6px;
+  font-size: 23px;
 }
+
 .reasons h2 {
   text-decoration: underline;
   font-size: 30px;
 }
+
 /*Styling the column cards*/
 .why {
   flex: 50%;
   border: solid brown;
-  border-radius: 10px ; 
+  border-radius: 10px;
   margin: 1rem 1rem 0 1rem;
   box-shadow: 14px 0px 2px 1px rgb(0 0 0);
   background-color: #ECCE8E;
@@ -152,95 +167,110 @@ font-size: 23px;
 
 /*Youtube video*/
 #video {
-/*Extra rules to distinguish different sections.*/
+  /*Extra rules to distinguish different sections.*/
   margin-top: -23px;
   margin-bottom: -1px;
   padding-bottom: 10px;
 }
+
 /*Heading for the section.*/
 #video h2 {
   font-size: 40px;
   padding-top: 10px;
 }
-#video h2, h3 {
+
+#video h2,
+h3 {
   color: #314054;
 }
 
 /*Contact and maps*/
 
-  .map-and-form {
-    display: flex;
-  }
+.map-and-form {
+  display: flex;
+}
+
 /*Text in the section.*/
-  .info{
-    text-align: center;
-    font-size: 40px;
-  }
-#contact h4{
+.info {
+  text-align: center;
+  font-size: 40px;
+}
+
+#contact h4 {
   font-size: 23px;
 }
-/*Map style*/
-  .imap {
-    margin-left: 2rem;
-    margin: 0 auto;
-  }
-/*Form styling*/
-  label {
-    display: block;
-    margin-top: 13px;
-  }
 
-  .radio label {
-    margin-top: 0;
-  }
-  
-  #contact-form {
-    display: flex;
-    background-color: #F2F3D9;
-    flex-direction: column;
-    /* min-width: 200px; */
-    margin: 2em 0;
-    padding: 1em 2em;
-    align-items: center;
-    border: 5px solid;
-    margin: 0 10px 9px; 
-    border-radius: 18px;
-  }
-  #contact-form > h2 {
-    font-size: 40px;
-  }
-  /* #contact-form > p {
+/*Map style*/
+.imap {
+  margin-left: 2rem;
+  margin: 0 auto;
+}
+
+/*Form styling*/
+label {
+  display: block;
+  margin-top: 13px;
+}
+
+.radio label {
+  margin-top: 0;
+}
+
+#contact-form {
+  display: flex;
+  background-color: #F2F3D9;
+  flex-direction: column;
+  /* min-width: 200px; */
+  margin: 2em 0;
+  padding: 1em 2em;
+  align-items: center;
+  border: 5px solid;
+  margin: 0 10px 9px;
+  border-radius: 18px;
+}
+
+#contact-form>h2 {
+  font-size: 40px;
+}
+
+/* #contact-form > p {
     color: white;
   } */
-  .text-input {
-    background: transparent;
-    color: black;
-    width: 100%; /*90 looks good*/
-    /* height: 10px; */
-    /* margin: 3px 0 3px 0; */
-    border: none;
-    border-bottom: 1px solid black;
+.text-input {
+  background: transparent;
+  color: black;
+  width: 100%;
+  /*90 looks good*/
+  /* height: 10px; */
+  /* margin: 3px 0 3px 0; */
+  border: none;
+  border-bottom: 1px solid black;
 }
-input[type=radio] + label {
+
+input[type=radio]+label {
   display: inline-block;
   margin-top: 0;
   padding-top: 0;
 
 }
+
 input[type=radio] {
   margin-left: 1.5em;
   margin-right: 0;
 }
+
 input[type=radio]:first-of-type {
-  margin-left:0;
+  margin-left: 0;
 }
+
 textarea {
   border: 1px solid #100c08;
   border-radius: 10px;
   min-height: 80px;
   min-width: 100px;
 }
-.submit-button{
+
+.submit-button {
   display: block;
   margin-top: 30px;
   margin: 0 auto;
@@ -252,109 +282,129 @@ textarea {
   background-color: green;
 
 }
-.submit-button:hover{
+
+.submit-button:hover {
   color: navajowhite;
   background-color: darkgreen;
 }
+
 .submit-button:active {
   background-color: #3e8e41;
   box-shadow: 0 2px;
 }
+
 select {
   border: 1px solid black;
   border-radius: 30px;
   width: 80%;
 }
+
 /*Centering iframe elements*/
 iframe {
   display: block;
   padding-bottom: 7px;
   margin: 0 auto;
 }
-  /*Footer*/
+
+/*Footer*/
 footer {
-    height: 110px; 
-    background-color: #3a3a3a;
-    width: 100%;
+  height: 110px;
+  background-color: #3a3a3a;
+  width: 100%;
 }
+
 footer p {
-    color: #f5f5f5;
-    text-align: center;
+  color: #f5f5f5;
+  text-align: center;
 }
+
 #social-links {
   margin: 0 auto;
 }
-footer li{
+
+footer li {
   display: inline-block;
   margin: 0 auto;
-} 
-#social-links{
-  display:flex;
+}
+
+#social-links {
+  display: flex;
   flex-direction: row;
   /*align-items:center;*/
   justify-content: center;
-  width:max-content;
-} 
+  width: max-content;
+}
+
 #social-links i {
   font-size: 23px;
-  margin: 1%; 
-  padding: 5%; 
+  margin: 1%;
+  padding: 5%;
   color: #f5f5f5;
-  left: 60%; 
-} 
+  left: 60%;
+}
+
 /*Media queries*/
 /* For medium screen sizes.*/
 @media screen and (max-width: 950px) {
   .overlay {
     position: absolute;
-    height: 550px; 
+    height: 550px;
     width: 60%;
     opacity: 1;
     background-color: #E9D985;
   }
+
   .text {
     font-size: 30px;
     position: absolute;
-    top: 50%; 
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
   }
+
   iframe {
     width: 80%;
     /* height: 60; */
   }
+
   div .map-and-form {
     display: flex;
     flex-direction: column;
   }
+
   /* .imap {
     margin-left: 2rem;
   } */
   textarea {
     width: 100%;
   }
-  
+
 }
+
 /*Styling for tablet like device */
 @media (min-width: 481px) and (max-width: 767px) {
   .map-and-form {
     display: flex;
     flex-direction: column;
+  }
+
+  #logo {
+    font-size: 369%;
+  }
+
+  .text {
+    font-size: 25px;
+  }
 }
-#logo {
-  font-size: 369%;
-}
-.text {
-  font-size: 25px;
-}
-}
+
 /*Styling for mobile like devices.*/
 @media (min-width: 320px) and (max-width: 480px) {
 
   .text {
     font-size: 18px;
   }
+
   li {
     font-size: 12px;
   }
@@ -362,15 +412,17 @@ footer li{
   .reasons p {
     font-size: 16px;
   }
+
   .reasons h2 {
     font-size: 28px;
   }
 
 
-.reasons {
-  display: flex;
-  flex-wrap: wrap;
-}
+  .reasons {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
   iframe {
     /* width: auto;
     height: auto; */
@@ -381,41 +433,52 @@ footer li{
   textarea {
     width: 100%;
   }
+
   .map-and-form {
     flex-direction: column;
   }
-  #contact-form > h2 {
+
+  #contact-form>h2 {
     font-size: 30px;
   }
+
   img {
     height: 370px;
   }
+
   .overlay {
     height: 370px;
-  } 
+  }
+
   #logo {
     font-size: 277%;
   }
 }
+
 /*Styling for a special case galaxy fold and other low resolution mobiles.*/
-@media (min-width: 280px) and (max-width: 319px){
+@media (min-width: 280px) and (max-width: 319px) {
   .text {
     font-size: 19px;
   }
-  .reasons{
+
+  .reasons {
     flex-direction: column;
   }
+
   .map-and-form {
     flex-direction: column;
   }
+
   li {
     font-size: 17px;
   }
+
   #logo {
     font-size: 227%;
   }
-  
+
 }
+
 /*Styling for 4k monitors.*/
 @media (min-width: 1668px) and (max-width: 2560px) {
   #contact-form {
